@@ -38,4 +38,3 @@ public class MainActivity extends AppCompatActivity {
         textView.setBackgroundColor(Color.parseColor("#e32636"));
     }
 }
-//Comment to revert
