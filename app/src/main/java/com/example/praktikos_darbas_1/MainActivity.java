@@ -1,5 +1,6 @@
 package com.example.praktikos_darbas_1;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -26,5 +27,10 @@ public class MainActivity extends AppCompatActivity {
     public void onBtnClickChangeText(View view){
         TextView textView = findViewById(R.id.textView);
         textView.setText(".............");
+    }
+    /// https://stackoverflow.com/questions/6177273/textview-settextcolor-not-working
+    public void onBtnClickChangeColor (View view){
+        TextView textView = findViewById(R.id.textView);
+        textView.setTextColor(Color.parseColor("#0048ba"));
     }
 }
