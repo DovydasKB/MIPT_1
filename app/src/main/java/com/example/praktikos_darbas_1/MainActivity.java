@@ -33,4 +33,8 @@ public class MainActivity extends AppCompatActivity {
         TextView textView = findViewById(R.id.textView);
         textView.setTextColor(Color.parseColor("#0048ba"));
     }
+    public void onBtnClickChangeBackground (View view){
+        TextView textView = findViewById(R.id.textView);
+        textView.setBackgroundColor(Color.parseColor("#e32636"));
+    }
 }
